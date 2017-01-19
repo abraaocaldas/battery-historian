@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/battery-historian/csv"
-	"github.com/google/battery-historian/historianutils"
+	"github.com/abraaocaldas/battery-historian/csv"
+	"github.com/abraaocaldas/battery-historian/historianutils"
 )
 
 // powermonitorRE is a regular expression to match a line in the powermonitor file, in the format: unix_timestamp amps .

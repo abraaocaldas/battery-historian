@@ -27,8 +27,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/google/battery-historian/bugreportutils"
-	"github.com/google/battery-historian/historianutils"
+	"github.com/abraaocaldas/battery-historian/bugreportutils"
+	"github.com/abraaocaldas/battery-historian/historianutils"
 )
 
 const (
@@ -110,7 +110,7 @@ func main() {
 
 	if _, err := os.Stat(closureLibraryDir); os.IsNotExist(err) {
 		fmt.Println("\nDownloading Closure library...")
-		runCommand("git", "clone", "https://github.com/google/closure-library", closureLibraryDir)
+		runCommand("git", "clone", "https://github.com/abraaocaldas/closure-library", closureLibraryDir)
 	}
 
 	_, errD := os.Stat(closureCompilerDir)

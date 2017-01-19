@@ -23,10 +23,10 @@ import (
 	"strconv"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/battery-historian/packageutils"
+	"github.com/abraaocaldas/battery-historian/packageutils"
 
-	bspb "github.com/google/battery-historian/pb/batterystats_proto"
-	bldpb "github.com/google/battery-historian/pb/build_proto"
+	bspb "github.com/abraaocaldas/battery-historian/pb/batterystats_proto"
+	bldpb "github.com/abraaocaldas/battery-historian/pb/build_proto"
 )
 
 const (

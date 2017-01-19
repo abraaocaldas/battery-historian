@@ -23,9 +23,9 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/google/battery-historian/bugreportutils"
-	"github.com/google/battery-historian/checkinparse"
-	bspb "github.com/google/battery-historian/pb/batterystats_proto"
+	"github.com/abraaocaldas/battery-historian/bugreportutils"
+	"github.com/abraaocaldas/battery-historian/checkinparse"
+	bspb "github.com/abraaocaldas/battery-historian/pb/batterystats_proto"
 )
 
 const (

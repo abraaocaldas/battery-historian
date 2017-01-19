@@ -20,7 +20,7 @@ import (
 	"reflect"
 
 	"github.com/golang/protobuf/proto"
-	bspb "github.com/google/battery-historian/pb/batterystats_proto"
+	bspb "github.com/abraaocaldas/battery-historian/pb/batterystats_proto"
 )
 
 // roundToTwoDecimal rounds off floats to 2 decimal places.

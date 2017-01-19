@@ -34,22 +34,22 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/google/battery-historian/activity"
-	"github.com/google/battery-historian/bugreportutils"
-	"github.com/google/battery-historian/checkindelta"
-	"github.com/google/battery-historian/checkinparse"
-	"github.com/google/battery-historian/checkinutil"
-	"github.com/google/battery-historian/historianutils"
-	"github.com/google/battery-historian/kernel"
-	"github.com/google/battery-historian/packageutils"
-	"github.com/google/battery-historian/parseutils"
-	"github.com/google/battery-historian/powermonitor"
-	"github.com/google/battery-historian/presenter"
-	"github.com/google/battery-historian/wearable"
+	"github.com/abraaocaldas/battery-historian/activity"
+	"github.com/abraaocaldas/battery-historian/bugreportutils"
+	"github.com/abraaocaldas/battery-historian/checkindelta"
+	"github.com/abraaocaldas/battery-historian/checkinparse"
+	"github.com/abraaocaldas/battery-historian/checkinutil"
+	"github.com/abraaocaldas/battery-historian/historianutils"
+	"github.com/abraaocaldas/battery-historian/kernel"
+	"github.com/abraaocaldas/battery-historian/packageutils"
+	"github.com/abraaocaldas/battery-historian/parseutils"
+	"github.com/abraaocaldas/battery-historian/powermonitor"
+	"github.com/abraaocaldas/battery-historian/presenter"
+	"github.com/abraaocaldas/battery-historian/wearable"
 
-	bspb "github.com/google/battery-historian/pb/batterystats_proto"
-	sessionpb "github.com/google/battery-historian/pb/session_proto"
-	usagepb "github.com/google/battery-historian/pb/usagestats_proto"
+	bspb "github.com/abraaocaldas/battery-historian/pb/batterystats_proto"
+	sessionpb "github.com/abraaocaldas/battery-historian/pb/session_proto"
+	usagepb "github.com/abraaocaldas/battery-historian/pb/usagestats_proto"
 )
 
 const (

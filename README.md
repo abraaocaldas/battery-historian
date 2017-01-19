@@ -63,13 +63,13 @@ Next, install Java from <http://www.oracle.com/technetwork/java/javase/downloads
 Next, download the Battery Historian code and its dependencies:
 
 ```
-$ go get -d -u github.com/google/battery-historian/...
+$ go get -d -u github.com/abraaocaldas/battery-historian/...
 ```
 
 Finally, run Battery Historian!
 
 ```
-$ cd $GOPATH/src/github.com/google/battery-historian
+$ cd $GOPATH/src/github.com/abraaocaldas/battery-historian
 
 # Compile Javascript files using the Closure compiler
 $ go run setup.go
@@ -78,10 +78,10 @@ $ go run setup.go
 $ go run cmd/battery-historian/battery-historian.go [--port <default:9999>]
 ```
 
-Remember, you must always run battery-historian from inside the `$GOPATH/src/github.com/google/battery-historian` directory:
+Remember, you must always run battery-historian from inside the `$GOPATH/src/github.com/abraaocaldas/battery-historian` directory:
 
 ```
-cd $GOPATH/src/github.com/google/battery-historian
+cd $GOPATH/src/github.com/abraaocaldas/battery-historian
 go run cmd/battery-historian/battery-historian.go [--port <default:9999>]
 ```
 
@@ -229,7 +229,7 @@ $ stop monsoon.py
 If you want to modify the proto files (pb/\*/\*.proto), first download the
 additional tools necessary:
 
-Install the standard C++ implementation of protocol buffers from <https://github.com/google/protobuf/blob/master/src/README.md>
+Install the standard C++ implementation of protocol buffers from <https://github.com/abraaocaldas/protobuf/blob/master/src/README.md>
 
 Download the Go proto compiler:
 
@@ -263,7 +263,7 @@ $ go run cmd/checkin-delta/local_checkin_delta.go --input=bugreport_1.txt,bugrep
 - G+ Community (Discussion Thread: Battery Historian): https://plus.google.com/b/108967384991768947849/communities/114791428968349268860
 
 If you've found an error in this sample, please file an issue:
-<https://github.com/google/battery-historian/issues>
+<https://github.com/abraaocaldas/battery-historian/issues>
 
 ## License
 

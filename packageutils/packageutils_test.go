@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	usagepb "github.com/google/battery-historian/pb/usagestats_proto"
+	usagepb "github.com/abraaocaldas/battery-historian/pb/usagestats_proto"
 )
 
 const (
